@@ -1,0 +1,32 @@
+[
+  {
+    "_id": "1",
+    "userId": "1",
+    "duration": 10,
+    "date": "2026-01-14",
+    "soundType": "rain",
+    "completed": true,
+    "createdAt": 1736860800000,
+    "updatedAt": 1736860800000
+  },
+  {
+    "_id": "2",
+    "userId": "1",
+    "duration": 15,
+    "date": "2026-01-13",
+    "soundType": "silent",
+    "completed": true,
+    "createdAt": 1736774400000,
+    "updatedAt": 1736774400000
+  },
+  {
+    "_id": "3",
+    "userId": "1",
+    "duration": 20,
+    "date": "2026-01-12",
+    "soundType": "ocean",
+    "completed": true,
+    "createdAt": 1736688000000,
+    "updatedAt": 1736688000000
+  }
+]

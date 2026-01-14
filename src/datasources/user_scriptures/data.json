@@ -1,0 +1,32 @@
+[
+  {
+    "_id": "1",
+    "userId": "1",
+    "scriptureId": "1",
+    "readChapters": 1,
+    "lastRead": "2026-01-14",
+    "status": "completed",
+    "createdAt": 1736860800000,
+    "updatedAt": 1736860800000
+  },
+  {
+    "_id": "2",
+    "userId": "1",
+    "scriptureId": "2",
+    "readChapters": 21,
+    "lastRead": "2026-01-13",
+    "status": "reading",
+    "createdAt": 1736774400000,
+    "updatedAt": 1736774400000
+  },
+  {
+    "_id": "3",
+    "userId": "1",
+    "scriptureId": "3",
+    "readChapters": 0,
+    "lastRead": null,
+    "status": "not-started",
+    "createdAt": 1736860800000,
+    "updatedAt": 1736860800000
+  }
+]

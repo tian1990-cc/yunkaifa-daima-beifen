@@ -1,0 +1,43 @@
+{
+  "name": "users",
+  "description": "用户表",
+  "fields": [
+    {
+      "name": "username",
+      "type": "string",
+      "description": "用户名",
+      "required": true
+    },
+    {
+      "name": "email",
+      "type": "string",
+      "description": "邮箱",
+      "required": true,
+      "unique": true
+    },
+    {
+      "name": "password",
+      "type": "string",
+      "description": "密码",
+      "required": true
+    },
+    {
+      "name": "avatarUrl",
+      "type": "string",
+      "description": "头像URL",
+      "required": false
+    },
+    {
+      "name": "createdAt",
+      "type": "datetime",
+      "description": "创建时间",
+      "required": true
+    },
+    {
+      "name": "updatedAt",
+      "type": "datetime",
+      "description": "更新时间",
+      "required": true
+    }
+  ]
+}

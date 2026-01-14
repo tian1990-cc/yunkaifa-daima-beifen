@@ -1,0 +1,59 @@
+{
+  "name": "users",
+  "title": "用户信息",
+  "schemas": [
+    {
+      "name": "name",
+      "title": "用户名",
+      "type": "String"
+    },
+    {
+      "name": "email",
+      "title": "邮箱",
+      "type": "Email"
+    },
+    {
+      "name": "level",
+      "title": "修行等级",
+      "type": "String"
+    },
+    {
+      "name": "avatar",
+      "title": "头像",
+      "type": "String"
+    },
+    {
+      "name": "tags",
+      "title": "标签",
+      "type": "Array",
+      "items": {
+        "type": "String"
+      }
+    },
+    {
+      "name": "meditationMinutes",
+      "title": "总冥想分钟数",
+      "type": "Number"
+    },
+    {
+      "name": "scriptureCount",
+      "title": "佛经数量",
+      "type": "Number"
+    },
+    {
+      "name": "courseCount",
+      "title": "课程数量",
+      "type": "Number"
+    },
+    {
+      "name": "learningDays",
+      "title": "学习天数",
+      "type": "Number"
+    },
+    {
+      "name": "consecutiveDays",
+      "title": "连续天数",
+      "type": "Number"
+    }
+  ]
+}

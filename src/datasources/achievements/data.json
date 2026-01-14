@@ -1,0 +1,38 @@
+[
+  {
+    "_id": "1",
+    "name": "初心者",
+    "icon": "🌱",
+    "description": "完成首次冥想",
+    "condition": "meditation_count >= 1",
+    "createdAt": 1736860800000,
+    "updatedAt": 1736860800000
+  },
+  {
+    "_id": "2",
+    "name": "坚持者",
+    "icon": "🔥",
+    "description": "连续冥想7天",
+    "condition": "consecutive_days >= 7",
+    "createdAt": 1736860800000,
+    "updatedAt": 1736860800000
+  },
+  {
+    "_id": "3",
+    "name": "学者",
+    "icon": "📚",
+    "description": "完成3门课程",
+    "condition": "course_count >= 3",
+    "createdAt": 1736860800000,
+    "updatedAt": 1736860800000
+  },
+  {
+    "_id": "4",
+    "name": "经师",
+    "icon": "📖",
+    "description": "诵读10部经典",
+    "condition": "scripture_count >= 10",
+    "createdAt": 1736860800000,
+    "updatedAt": 1736860800000
+  }
+]

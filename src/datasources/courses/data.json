@@ -1,0 +1,41 @@
+[
+  {
+    "_id": "1",
+    "title": "正念冥想入门",
+    "instructor": "慧明法师",
+    "duration": 12,
+    "period": "7天",
+    "participants": 2345,
+    "level": "beginner",
+    "icon": "🧘",
+    "description": "适合初学者的正念冥想入门课程，帮助您建立冥想习惯，培养专注力。",
+    "createdAt": 1736860800000,
+    "updatedAt": 1736860800000
+  },
+  {
+    "_id": "2",
+    "title": "深度放松冥想",
+    "instructor": "静心禅师",
+    "duration": 21,
+    "period": "14天",
+    "participants": 1567,
+    "level": "intermediate",
+    "icon": "🌿",
+    "description": "中级冥想课程，专注于深度放松和压力释放，适合有一定基础的修行者。",
+    "createdAt": 1736860800000,
+    "updatedAt": 1736860800000
+  },
+  {
+    "_id": "3",
+    "title": "智慧禅修进阶",
+    "instructor": "智海法师",
+    "duration": 30,
+    "period": "21天",
+    "participants": 892,
+    "level": "advanced",
+    "icon": "💎",
+    "description": "高级禅修课程，深入探讨智慧禅修的精髓，适合资深修行者。",
+    "createdAt": 1736860800000,
+    "updatedAt": 1736860800000
+  }
+]

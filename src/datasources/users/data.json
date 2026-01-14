@@ -1,0 +1,17 @@
+[
+  {
+    "_id": "1",
+    "name": "禅心行者",
+    "email": "zen@example.com",
+    "level": "中级修行者",
+    "avatar": "🧘",
+    "tags": ["正念实践", "经典诵读"],
+    "meditationMinutes": 180,
+    "scriptureCount": 3,
+    "courseCount": 2,
+    "learningDays": 24,
+    "consecutiveDays": 7,
+    "createdAt": 1736860800000,
+    "updatedAt": 1736860800000
+  }
+]

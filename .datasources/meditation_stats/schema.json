@@ -1,0 +1,51 @@
+{
+  "name": "meditation_stats",
+  "description": "冥想统计表",
+  "fields": [
+    {
+      "name": "userId",
+      "type": "string",
+      "description": "用户ID",
+      "required": true
+    },
+    {
+      "name": "totalMinutes",
+      "type": "number",
+      "description": "总冥想分钟数",
+      "required": true,
+      "defaultValue": 0
+    },
+    {
+      "name": "streakDays",
+      "type": "number",
+      "description": "连续天数",
+      "required": true,
+      "defaultValue": 0
+    },
+    {
+      "name": "sessionsCount",
+      "type": "number",
+      "description": "完成次数",
+      "required": true,
+      "defaultValue": 0
+    },
+    {
+      "name": "lastSessionDate",
+      "type": "datetime",
+      "description": "最后一次冥想日期",
+      "required": false
+    },
+    {
+      "name": "createdAt",
+      "type": "datetime",
+      "description": "创建时间",
+      "required": true
+    },
+    {
+      "name": "updatedAt",
+      "type": "datetime",
+      "description": "更新时间",
+      "required": true
+    }
+  ]
+}

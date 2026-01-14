@@ -1,0 +1,32 @@
+{
+  "name": "user_scriptures",
+  "title": "用户佛经进度",
+  "schemas": [
+    {
+      "name": "userId",
+      "title": "用户ID",
+      "type": "String"
+    },
+    {
+      "name": "scriptureId",
+      "title": "经书ID",
+      "type": "String"
+    },
+    {
+      "name": "readChapters",
+      "title": "已读章节数",
+      "type": "Number"
+    },
+    {
+      "name": "lastRead",
+      "title": "最后阅读时间",
+      "type": "Date",
+      "format": "date"
+    },
+    {
+      "name": "status",
+      "title": "阅读状态",
+      "type": "String"
+    }
+  ]
+}

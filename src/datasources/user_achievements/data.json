@@ -1,0 +1,38 @@
+[
+  {
+    "_id": "1",
+    "userId": "1",
+    "achievementId": "1",
+    "unlocked": true,
+    "unlockedAt": "2026-01-08",
+    "createdAt": 1736860800000,
+    "updatedAt": 1736860800000
+  },
+  {
+    "_id": "2",
+    "userId": "1",
+    "achievementId": "2",
+    "unlocked": true,
+    "unlockedAt": "2026-01-14",
+    "createdAt": 1736860800000,
+    "updatedAt": 1736860800000
+  },
+  {
+    "_id": "3",
+    "userId": "1",
+    "achievementId": "3",
+    "unlocked": false,
+    "unlockedAt": null,
+    "createdAt": 1736860800000,
+    "updatedAt": 1736860800000
+  },
+  {
+    "_id": "4",
+    "userId": "1",
+    "achievementId": "4",
+    "unlocked": false,
+    "unlockedAt": null,
+    "createdAt": 1736860800000,
+    "updatedAt": 1736860800000
+  }
+]

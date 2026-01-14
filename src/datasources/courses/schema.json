@@ -1,0 +1,46 @@
+{
+  "name": "courses",
+  "title": "法门课程",
+  "schemas": [
+    {
+      "name": "title",
+      "title": "课程标题",
+      "type": "String"
+    },
+    {
+      "name": "instructor",
+      "title": "讲师",
+      "type": "String"
+    },
+    {
+      "name": "duration",
+      "title": "课程时长(天)",
+      "type": "Number"
+    },
+    {
+      "name": "period",
+      "title": "学习周期",
+      "type": "String"
+    },
+    {
+      "name": "participants",
+      "title": "参与人数",
+      "type": "Number"
+    },
+    {
+      "name": "level",
+      "title": "难度等级",
+      "type": "String"
+    },
+    {
+      "name": "icon",
+      "title": "图标",
+      "type": "String"
+    },
+    {
+      "name": "description",
+      "title": "课程描述",
+      "type": "MultiLineString"
+    }
+  ]
+}

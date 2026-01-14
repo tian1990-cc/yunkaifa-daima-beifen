@@ -1,0 +1,27 @@
+{
+  "name": "daily_wisdom",
+  "title": "每日法语",
+  "schemas": [
+    {
+      "name": "text",
+      "title": "法语内容",
+      "type": "MultiLineString"
+    },
+    {
+      "name": "meaning",
+      "title": "含义解释",
+      "type": "MultiLineString"
+    },
+    {
+      "name": "source",
+      "title": "出处",
+      "type": "String"
+    },
+    {
+      "name": "date",
+      "title": "日期",
+      "type": "Date",
+      "format": "date"
+    }
+  ]
+}

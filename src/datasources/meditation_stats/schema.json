@@ -1,0 +1,32 @@
+{
+  "name": "meditation_stats",
+  "title": "冥想统计",
+  "schemas": [
+    {
+      "name": "userId",
+      "title": "用户ID",
+      "type": "String"
+    },
+    {
+      "name": "duration",
+      "title": "冥想时长(分钟)",
+      "type": "Number"
+    },
+    {
+      "name": "date",
+      "title": "冥想日期",
+      "type": "Date",
+      "format": "date"
+    },
+    {
+      "name": "soundType",
+      "title": "背景音类型",
+      "type": "String"
+    },
+    {
+      "name": "completed",
+      "title": "是否完成",
+      "type": "Boolean"
+    }
+  ]
+}
