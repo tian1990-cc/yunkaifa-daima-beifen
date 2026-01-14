@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "_id": "user_001",
+    "username": "禅修者",
+    "email": "user@example.com",
+    "password": "$2b$10$hashedpassword",
+    "avatarUrl": "https://example.com/avatar.jpg",
+    "totalMeditationMinutes": 0,
+    "streakDays": 0,
+    "sessionsCount": 0,
+    "lastSessionDate": null,
+    "createdAt": 1705200000000,
+    "updatedAt": 1705200000000
+  }
+]

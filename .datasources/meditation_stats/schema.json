@@ -1,51 +1,37 @@
 {
   "name": "meditation_stats",
-  "description": "冥想统计表",
-  "fields": [
+  "title": "冥想统计",
+  "schemas": [
     {
       "name": "userId",
-      "type": "string",
-      "description": "用户ID",
-      "required": true
+      "title": "用户ID",
+      "type": "String"
     },
     {
-      "name": "totalMinutes",
-      "type": "number",
-      "description": "总冥想分钟数",
-      "required": true,
-      "defaultValue": 0
+      "name": "sessionDate",
+      "title": "冥想日期",
+      "type": "DateTime",
+      "format": "timestamp-ms"
     },
     {
-      "name": "streakDays",
-      "type": "number",
-      "description": "连续天数",
-      "required": true,
-      "defaultValue": 0
+      "name": "durationMinutes",
+      "title": "时长(分钟)",
+      "type": "Number"
     },
     {
-      "name": "sessionsCount",
-      "type": "number",
-      "description": "完成次数",
-      "required": true,
-      "defaultValue": 0
+      "name": "backgroundSound",
+      "title": "背景音",
+      "type": "String"
     },
     {
-      "name": "lastSessionDate",
-      "type": "datetime",
-      "description": "最后一次冥想日期",
-      "required": false
+      "name": "sessionType",
+      "title": "冥想类型",
+      "type": "String"
     },
     {
-      "name": "createdAt",
-      "type": "datetime",
-      "description": "创建时间",
-      "required": true
-    },
-    {
-      "name": "updatedAt",
-      "type": "datetime",
-      "description": "更新时间",
-      "required": true
+      "name": "notes",
+      "title": "备注",
+      "type": "MultiLineString"
     }
   ]
 }

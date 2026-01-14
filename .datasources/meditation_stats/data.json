@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "_id": "meditation_001",
+    "userId": "user_001",
+    "sessionDate": 1705200000000,
+    "durationMinutes": 15,
+    "backgroundSound": "自然音",
+    "sessionType": "基础冥想",
+    "notes": "第一次冥想练习",
+    "createdAt": 1705200000000,
+    "updatedAt": 1705200000000
+  }
+]

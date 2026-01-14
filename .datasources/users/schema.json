@@ -1,43 +1,47 @@
 {
   "name": "users",
-  "description": "用户表",
-  "fields": [
+  "title": "用户信息",
+  "schemas": [
     {
       "name": "username",
-      "type": "string",
-      "description": "用户名",
-      "required": true
+      "title": "用户名",
+      "type": "String"
     },
     {
       "name": "email",
-      "type": "string",
-      "description": "邮箱",
-      "required": true,
-      "unique": true
+      "title": "邮箱",
+      "type": "String"
     },
     {
       "name": "password",
-      "type": "string",
-      "description": "密码",
-      "required": true
+      "title": "密码",
+      "type": "String"
     },
     {
       "name": "avatarUrl",
-      "type": "string",
-      "description": "头像URL",
-      "required": false
+      "title": "头像URL",
+      "type": "Url"
     },
     {
-      "name": "createdAt",
-      "type": "datetime",
-      "description": "创建时间",
-      "required": true
+      "name": "totalMeditationMinutes",
+      "title": "总冥想分钟数",
+      "type": "Number"
     },
     {
-      "name": "updatedAt",
-      "type": "datetime",
-      "description": "更新时间",
-      "required": true
+      "name": "streakDays",
+      "title": "连续天数",
+      "type": "Number"
+    },
+    {
+      "name": "sessionsCount",
+      "title": "完成次数",
+      "type": "Number"
+    },
+    {
+      "name": "lastSessionDate",
+      "title": "最后一次冥想日期",
+      "type": "DateTime",
+      "format": "timestamp-ms"
     }
   ]
 }
