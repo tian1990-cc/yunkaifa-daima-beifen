@@ -1,0 +1,27 @@
+{
+  "name": "user_achievements",
+  "title": "用户成就记录",
+  "schemas": [
+    {
+      "name": "userId",
+      "title": "用户ID",
+      "type": "String"
+    },
+    {
+      "name": "achievementId",
+      "title": "成就ID",
+      "type": "String"
+    },
+    {
+      "name": "unlocked",
+      "title": "是否已解锁",
+      "type": "Boolean"
+    },
+    {
+      "name": "unlockedDate",
+      "title": "解锁日期",
+      "type": "Date",
+      "format": "timestamp-ms"
+    }
+  ]
+}

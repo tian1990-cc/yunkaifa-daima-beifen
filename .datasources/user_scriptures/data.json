@@ -1,0 +1,44 @@
+[
+  {
+    "_id": "user_scripture_001",
+    "userId": "user_001",
+    "scriptureId": "scripture_001",
+    "progress": 100,
+    "readChapters": 1,
+    "lastReadDate": 1736899200000,
+    "status": "completed",
+    "createdAt": 1736899200000,
+    "updatedAt": 1736899200000,
+    "owner": "user_001",
+    "createBy": "user_001",
+    "updateBy": "user_001"
+  },
+  {
+    "_id": "user_scripture_002",
+    "userId": "user_001",
+    "scriptureId": "scripture_002",
+    "progress": 67,
+    "readChapters": 21,
+    "lastReadDate": 1736899200000,
+    "status": "reading",
+    "createdAt": 1736899200000,
+    "updatedAt": 1736899200000,
+    "owner": "user_001",
+    "createBy": "user_001",
+    "updateBy": "user_001"
+  },
+  {
+    "_id": "user_scripture_003",
+    "userId": "user_001",
+    "scriptureId": "scripture_003",
+    "progress": 25,
+    "readChapters": 7,
+    "lastReadDate": 1736899200000,
+    "status": "reading",
+    "createdAt": 1736899200000,
+    "updatedAt": 1736899200000,
+    "owner": "user_001",
+    "createBy": "user_001",
+    "updateBy": "user_001"
+  }
+]

@@ -20,28 +20,40 @@
     {
       "name": "avatarUrl",
       "title": "头像URL",
-      "type": "Url"
+      "type": "String"
     },
     {
-      "name": "totalMeditationMinutes",
-      "title": "总冥想分钟数",
+      "name": "level",
+      "title": "修行等级",
+      "type": "String"
+    },
+    {
+      "name": "tags",
+      "title": "标签",
+      "type": "Array",
+      "items": {
+        "type": "String"
+      }
+    },
+    {
+      "name": "meditationMinutes",
+      "title": "冥想总分钟数",
       "type": "Number"
     },
     {
-      "name": "streakDays",
-      "title": "连续天数",
+      "name": "scriptureCount",
+      "title": "已读佛经数量",
       "type": "Number"
     },
     {
-      "name": "sessionsCount",
-      "title": "完成次数",
+      "name": "courseCount",
+      "title": "已完成课程数",
       "type": "Number"
     },
     {
-      "name": "lastSessionDate",
-      "title": "最后一次冥想日期",
-      "type": "DateTime",
-      "format": "timestamp-ms"
+      "name": "learningDays",
+      "title": "学习天数",
+      "type": "Number"
     }
   ]
 }

@@ -1,15 +1,20 @@
 [
   {
     "_id": "user_001",
-    "username": "禅修者",
-    "email": "user@example.com",
-    "password": "$2b$10$hashedpassword",
-    "avatarUrl": "https://example.com/avatar.jpg",
-    "totalMeditationMinutes": 0,
-    "streakDays": 0,
-    "sessionsCount": 0,
-    "lastSessionDate": null,
-    "createdAt": 1705200000000,
-    "updatedAt": 1705200000000
+    "username": "禅心行者",
+    "email": "zen@example.com",
+    "password": "hashed_password_here",
+    "avatarUrl": "🧘",
+    "level": "中级修行者",
+    "tags": ["正念实践", "经典诵读"],
+    "meditationMinutes": 180,
+    "scriptureCount": 3,
+    "courseCount": 2,
+    "learningDays": 24,
+    "createdAt": 1736899200000,
+    "updatedAt": 1736899200000,
+    "owner": "user_001",
+    "createBy": "user_001",
+    "updateBy": "user_001"
   }
 ]

@@ -1,0 +1,47 @@
+[
+  {
+    "_id": "scripture_001",
+    "title": "心经",
+    "category": "般若部",
+    "lastRead": "2024-01-13",
+    "progress": 100,
+    "totalChapters": 1,
+    "readChapters": 1,
+    "icon": "💖",
+    "createdAt": 1736899200000,
+    "updatedAt": 1736899200000,
+    "owner": "user_001",
+    "createBy": "user_001",
+    "updateBy": "user_001"
+  },
+  {
+    "_id": "scripture_002",
+    "title": "金刚经",
+    "category": "般若部",
+    "lastRead": "2024-01-12",
+    "progress": 67,
+    "totalChapters": 32,
+    "readChapters": 21,
+    "icon": "💎",
+    "createdAt": 1736899200000,
+    "updatedAt": 1736899200000,
+    "owner": "user_001",
+    "createBy": "user_001",
+    "updateBy": "user_001"
+  },
+  {
+    "_id": "scripture_003",
+    "title": "法华经",
+    "category": "法华部",
+    "lastRead": "2024-01-10",
+    "progress": 25,
+    "totalChapters": 28,
+    "readChapters": 7,
+    "icon": "🌸",
+    "createdAt": 1736899200000,
+    "updatedAt": 1736899200000,
+    "owner": "user_001",
+    "createBy": "user_001",
+    "updateBy": "user_001"
+  }
+]

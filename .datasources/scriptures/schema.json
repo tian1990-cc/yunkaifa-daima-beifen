@@ -1,0 +1,41 @@
+{
+  "name": "scriptures",
+  "title": "佛经信息",
+  "schemas": [
+    {
+      "name": "title",
+      "title": "经名",
+      "type": "String"
+    },
+    {
+      "name": "category",
+      "title": "分类",
+      "type": "String"
+    },
+    {
+      "name": "lastRead",
+      "title": "最后阅读时间",
+      "type": "String"
+    },
+    {
+      "name": "progress",
+      "title": "阅读进度",
+      "type": "Number"
+    },
+    {
+      "name": "totalChapters",
+      "title": "总章节数",
+      "type": "Number"
+    },
+    {
+      "name": "readChapters",
+      "title": "已读章节数",
+      "type": "Number"
+    },
+    {
+      "name": "icon",
+      "title": "图标",
+      "type": "String"
+    }
+  ]
+}

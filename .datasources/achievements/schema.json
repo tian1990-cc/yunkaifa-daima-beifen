@@ -1,0 +1,31 @@
+{
+  "name": "achievements",
+  "title": "修行成就",
+  "schemas": [
+    {
+      "name": "name",
+      "title": "成就名称",
+      "type": "String"
+    },
+    {
+      "name": "icon",
+      "title": "图标",
+      "type": "String"
+    },
+    {
+      "name": "description",
+      "title": "描述",
+      "type": "String"
+    },
+    {
+      "name": "condition",
+      "title": "达成条件",
+      "type": "String"
+    },
+    {
+      "name": "type",
+      "title": "成就类型",
+      "type": "String"
+    }
+  ]
+}

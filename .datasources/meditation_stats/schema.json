@@ -8,15 +8,25 @@
       "type": "String"
     },
     {
-      "name": "sessionDate",
-      "title": "冥想日期",
-      "type": "DateTime",
-      "format": "timestamp-ms"
+      "name": "totalMinutes",
+      "title": "总冥想分钟数",
+      "type": "Number"
     },
     {
-      "name": "durationMinutes",
-      "title": "时长(分钟)",
+      "name": "streakDays",
+      "title": "连续天数",
       "type": "Number"
+    },
+    {
+      "name": "sessionsCount",
+      "title": "完成次数",
+      "type": "Number"
+    },
+    {
+      "name": "lastSessionDate",
+      "title": "最后一次冥想日期",
+      "type": "Date",
+      "format": "timestamp-ms"
     },
     {
       "name": "backgroundSound",
@@ -24,14 +34,9 @@
       "type": "String"
     },
     {
-      "name": "sessionType",
-      "title": "冥想类型",
-      "type": "String"
-    },
-    {
-      "name": "notes",
-      "title": "备注",
-      "type": "MultiLineString"
+      "name": "duration",
+      "title": "单次时长",
+      "type": "Number"
     }
   ]
 }

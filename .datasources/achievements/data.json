@@ -1,0 +1,54 @@
+[
+  {
+    "_id": "achievement_001",
+    "name": "初心者",
+    "icon": "🌱",
+    "description": "完成首次冥想",
+    "condition": "meditation_count >= 1",
+    "type": "meditation",
+    "createdAt": 1736899200000,
+    "updatedAt": 1736899200000,
+    "owner": "user_001",
+    "createBy": "user_001",
+    "updateBy": "user_001"
+  },
+  {
+    "_id": "achievement_002",
+    "name": "坚持者",
+    "icon": "🔥",
+    "description": "连续冥想7天",
+    "condition": "streak_days >= 7",
+    "type": "meditation",
+    "createdAt": 1736899200000,
+    "updatedAt": 1736899200000,
+    "owner": "user_001",
+    "createBy": "user_001",
+    "updateBy": "user_001"
+  },
+  {
+    "_id": "achievement_003",
+    "name": "学者",
+    "icon": "📚",
+    "description": "完成3门课程",
+    "condition": "completed_courses >= 3",
+    "type": "course",
+    "createdAt": 1736899200000,
+    "updatedAt": 1736899200000,
+    "owner": "user_001",
+    "createBy": "user_001",
+    "updateBy": "user_001"
+  },
+  {
+    "_id": "achievement_004",
+    "name": "经师",
+    "icon": "📖",
+    "description": "诵读10部经典",
+    "condition": "completed_scriptures >= 10",
+    "type": "scripture",
+    "createdAt": 1736899200000,
+    "updatedAt": 1736899200000,
+    "owner": "user_001",
+    "createBy": "user_001",
+    "updateBy": "user_001"
+  }
+]
