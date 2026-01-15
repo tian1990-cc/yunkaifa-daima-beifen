@@ -10,7 +10,7 @@
     {
       "name": "meaning",
       "title": "含义解释",
-      "type": "String"
+      "type": "MultiLineString"
     },
     {
       "name": "source",
@@ -21,7 +21,7 @@
       "name": "date",
       "title": "日期",
       "type": "Date",
-      "format": "timestamp-ms"
+      "format": "date"
     }
   ]
 }

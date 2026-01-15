@@ -9,7 +9,7 @@
     },
     {
       "name": "scriptureId",
-      "title": "佛经ID",
+      "title": "经书ID",
       "type": "String"
     },
     {
@@ -23,15 +23,15 @@
       "type": "Number"
     },
     {
-      "name": "lastReadDate",
-      "title": "最后阅读日期",
+      "name": "lastRead",
+      "title": "最后阅读时间",
       "type": "Date",
-      "format": "timestamp-ms"
+      "format": "date"
     },
     {
-      "name": "status",
-      "title": "状态",
-      "type": "String"
+      "name": "isCompleted",
+      "title": "是否完成",
+      "type": "Boolean"
     }
   ]
 }

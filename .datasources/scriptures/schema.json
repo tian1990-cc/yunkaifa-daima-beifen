@@ -4,7 +4,7 @@
   "schemas": [
     {
       "name": "title",
-      "title": "经名",
+      "title": "经书名称",
       "type": "String"
     },
     {
@@ -13,29 +13,24 @@
       "type": "String"
     },
     {
-      "name": "lastRead",
-      "title": "最后阅读时间",
-      "type": "String"
-    },
-    {
-      "name": "progress",
-      "title": "阅读进度",
-      "type": "Number"
-    },
-    {
       "name": "totalChapters",
       "title": "总章节数",
-      "type": "Number"
-    },
-    {
-      "name": "readChapters",
-      "title": "已读章节数",
       "type": "Number"
     },
     {
       "name": "icon",
       "title": "图标",
       "type": "String"
+    },
+    {
+      "name": "content",
+      "title": "经文内容",
+      "type": "RichText"
+    },
+    {
+      "name": "description",
+      "title": "经书简介",
+      "type": "MultiLineString"
     }
   ]
 }

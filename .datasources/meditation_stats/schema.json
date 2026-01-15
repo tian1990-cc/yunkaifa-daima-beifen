@@ -8,9 +8,20 @@
       "type": "String"
     },
     {
-      "name": "totalMinutes",
-      "title": "总冥想分钟数",
+      "name": "duration",
+      "title": "冥想时长",
       "type": "Number"
+    },
+    {
+      "name": "date",
+      "title": "冥想日期",
+      "type": "Date",
+      "format": "date"
+    },
+    {
+      "name": "backgroundSound",
+      "title": "背景音",
+      "type": "String"
     },
     {
       "name": "streakDays",
@@ -23,19 +34,8 @@
       "type": "Number"
     },
     {
-      "name": "lastSessionDate",
-      "title": "最后一次冥想日期",
-      "type": "Date",
-      "format": "timestamp-ms"
-    },
-    {
-      "name": "backgroundSound",
-      "title": "背景音",
-      "type": "String"
-    },
-    {
-      "name": "duration",
-      "title": "单次时长",
+      "name": "totalMinutes",
+      "title": "总分钟数",
       "type": "Number"
     }
   ]

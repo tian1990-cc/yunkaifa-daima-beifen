@@ -14,7 +14,7 @@
     },
     {
       "name": "description",
-      "title": "描述",
+      "title": "成就描述",
       "type": "String"
     },
     {

@@ -14,22 +14,17 @@
     },
     {
       "name": "duration",
-      "title": "课程时长",
+      "title": "课时数",
       "type": "Number"
     },
     {
       "name": "period",
-      "title": "课程周期",
+      "title": "学习周期",
       "type": "String"
     },
     {
       "name": "participants",
       "title": "参与人数",
-      "type": "Number"
-    },
-    {
-      "name": "progress",
-      "title": "进度",
       "type": "Number"
     },
     {
@@ -43,9 +38,9 @@
       "type": "String"
     },
     {
-      "name": "enrolled",
-      "title": "是否已报名",
-      "type": "Boolean"
+      "name": "description",
+      "title": "课程描述",
+      "type": "MultiLineString"
     }
   ]
 }

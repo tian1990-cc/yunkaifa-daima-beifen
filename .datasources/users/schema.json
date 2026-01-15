@@ -28,26 +28,18 @@
       "type": "String"
     },
     {
-      "name": "tags",
-      "title": "标签",
-      "type": "Array",
-      "items": {
-        "type": "String"
-      }
-    },
-    {
       "name": "meditationMinutes",
-      "title": "冥想总分钟数",
+      "title": "冥想总时长",
       "type": "Number"
     },
     {
       "name": "scriptureCount",
-      "title": "已读佛经数量",
+      "title": "诵读经文部数",
       "type": "Number"
     },
     {
       "name": "courseCount",
-      "title": "已完成课程数",
+      "title": "完成课程门数",
       "type": "Number"
     },
     {

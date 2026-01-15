@@ -14,13 +14,13 @@
     },
     {
       "name": "unlocked",
-      "title": "是否已解锁",
+      "title": "是否解锁",
       "type": "Boolean"
     },
     {
-      "name": "unlockedDate",
-      "title": "解锁日期",
-      "type": "Date",
+      "name": "unlockedAt",
+      "title": "解锁时间",
+      "type": "DateTime",
       "format": "timestamp-ms"
     }
   ]

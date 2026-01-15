@@ -1,17 +1,1 @@
-[
-  {
-    "_id": "meditation_001",
-    "userId": "user_001",
-    "totalMinutes": 180,
-    "streakDays": 7,
-    "sessionsCount": 24,
-    "lastSessionDate": 1736899200000,
-    "backgroundSound": "自然音",
-    "duration": 15,
-    "createdAt": 1736899200000,
-    "updatedAt": 1736899200000,
-    "owner": "user_001",
-    "createBy": "user_001",
-    "updateBy": "user_001"
-  }
-]
+[]
