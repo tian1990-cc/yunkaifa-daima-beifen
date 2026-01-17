@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "_id": "user_001",
+    "username": "禅心行者",
+    "email": "zen@example.com",
+    "password": "hashed_password_here",
+    "avatarUrl": "",
+    "level": "中级修行者",
+    "meditationMinutes": 180,
+    "scriptureCount": 3,
+    "courseCount": 2,
+    "learningDays": 24,
+    "createdAt": 1737043200000,
+    "updatedAt": 1737043200000
+  }
+]

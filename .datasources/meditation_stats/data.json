@@ -1,1 +1,86 @@
-[]
+[
+  {
+    "_id": "1",
+    "userId": "user_001",
+    "duration": 15,
+    "date": "2024-01-17",
+    "backgroundSound": "silence",
+    "streakDays": 7,
+    "sessionsCount": 1,
+    "totalMinutes": 180,
+    "createdAt": 1737043200000,
+    "updatedAt": 1737043200000
+  },
+  {
+    "_id": "2",
+    "userId": "user_001",
+    "duration": 20,
+    "date": "2024-01-16",
+    "backgroundSound": "nature",
+    "streakDays": 6,
+    "sessionsCount": 1,
+    "totalMinutes": 165,
+    "createdAt": 1736956800000,
+    "updatedAt": 1736956800000
+  },
+  {
+    "_id": "3",
+    "userId": "user_001",
+    "duration": 10,
+    "date": "2024-01-15",
+    "backgroundSound": "silence",
+    "streakDays": 5,
+    "sessionsCount": 1,
+    "totalMinutes": 145,
+    "createdAt": 1736870400000,
+    "updatedAt": 1736870400000
+  },
+  {
+    "_id": "4",
+    "userId": "user_001",
+    "duration": 25,
+    "date": "2024-01-14",
+    "backgroundSound": "music",
+    "streakDays": 4,
+    "sessionsCount": 1,
+    "totalMinutes": 135,
+    "createdAt": 1736784000000,
+    "updatedAt": 1736784000000
+  },
+  {
+    "_id": "5",
+    "userId": "user_001",
+    "duration": 15,
+    "date": "2024-01-13",
+    "backgroundSound": "silence",
+    "streakDays": 3,
+    "sessionsCount": 1,
+    "totalMinutes": 110,
+    "createdAt": 1736697600000,
+    "updatedAt": 1736697600000
+  },
+  {
+    "_id": "6",
+    "userId": "user_001",
+    "duration": 20,
+    "date": "2024-01-12",
+    "backgroundSound": "nature",
+    "streakDays": 2,
+    "sessionsCount": 1,
+    "totalMinutes": 95,
+    "createdAt": 1736611200000,
+    "updatedAt": 1736611200000
+  },
+  {
+    "_id": "7",
+    "userId": "user_001",
+    "duration": 15,
+    "date": "2024-01-11",
+    "backgroundSound": "silence",
+    "streakDays": 1,
+    "sessionsCount": 1,
+    "totalMinutes": 75,
+    "createdAt": 1736524800000,
+    "updatedAt": 1736524800000
+  }
+]

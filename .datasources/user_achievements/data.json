@@ -1,50 +1,56 @@
 [
   {
-    "_id": "user_achievement_001",
+    "_id": "1",
     "userId": "user_001",
-    "achievementId": "achievement_001",
+    "achievementId": "1",
     "unlocked": true,
-    "unlockedDate": 1736899200000,
-    "createdAt": 1736899200000,
-    "updatedAt": 1736899200000,
-    "owner": "user_001",
-    "createBy": "user_001",
-    "updateBy": "user_001"
+    "unlockedAt": 1737043200000,
+    "createdAt": 1737043200000,
+    "updatedAt": 1737043200000
   },
   {
-    "_id": "user_achievement_002",
+    "_id": "2",
     "userId": "user_001",
-    "achievementId": "achievement_002",
+    "achievementId": "2",
     "unlocked": true,
-    "unlockedDate": 1736899200000,
-    "createdAt": 1736899200000,
-    "updatedAt": 1736899200000,
-    "owner": "user_001",
-    "createBy": "user_001",
-    "updateBy": "user_001"
+    "unlockedAt": 1737129600000,
+    "createdAt": 1737043200000,
+    "updatedAt": 1737129600000
   },
   {
-    "_id": "user_achievement_003",
+    "_id": "3",
     "userId": "user_001",
-    "achievementId": "achievement_003",
+    "achievementId": "3",
     "unlocked": false,
-    "unlockedDate": null,
-    "createdAt": 1736899200000,
-    "updatedAt": 1736899200000,
-    "owner": "user_001",
-    "createBy": "user_001",
-    "updateBy": "user_001"
+    "unlockedAt": 0,
+    "createdAt": 1737043200000,
+    "updatedAt": 1737043200000
   },
   {
-    "_id": "user_achievement_004",
+    "_id": "4",
     "userId": "user_001",
-    "achievementId": "achievement_004",
+    "achievementId": "4",
     "unlocked": false,
-    "unlockedDate": null,
-    "createdAt": 1736899200000,
-    "updatedAt": 1736899200000,
-    "owner": "user_001",
-    "createBy": "user_001",
-    "updateBy": "user_001"
+    "unlockedAt": 0,
+    "createdAt": 1737043200000,
+    "updatedAt": 1737043200000
+  },
+  {
+    "_id": "5",
+    "userId": "user_001",
+    "achievementId": "5",
+    "unlocked": false,
+    "unlockedAt": 0,
+    "createdAt": 1737043200000,
+    "updatedAt": 1737043200000
+  },
+  {
+    "_id": "6",
+    "userId": "user_001",
+    "achievementId": "6",
+    "unlocked": false,
+    "unlockedAt": 0,
+    "createdAt": 1737043200000,
+    "updatedAt": 1737043200000
   }
 ]

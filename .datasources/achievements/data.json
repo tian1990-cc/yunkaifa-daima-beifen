@@ -1,54 +1,62 @@
 [
   {
-    "_id": "achievement_001",
+    "_id": "1",
     "name": "初心者",
     "icon": "🌱",
     "description": "完成首次冥想",
-    "condition": "meditation_count >= 1",
+    "condition": "完成第一次冥想练习",
     "type": "meditation",
-    "createdAt": 1736899200000,
-    "updatedAt": 1736899200000,
-    "owner": "user_001",
-    "createBy": "user_001",
-    "updateBy": "user_001"
+    "createdAt": 1737043200000,
+    "updatedAt": 1737043200000
   },
   {
-    "_id": "achievement_002",
+    "_id": "2",
     "name": "坚持者",
     "icon": "🔥",
     "description": "连续冥想7天",
-    "condition": "streak_days >= 7",
+    "condition": "连续7天完成冥想练习",
     "type": "meditation",
-    "createdAt": 1736899200000,
-    "updatedAt": 1736899200000,
-    "owner": "user_001",
-    "createBy": "user_001",
-    "updateBy": "user_001"
+    "createdAt": 1737043200000,
+    "updatedAt": 1737043200000
   },
   {
-    "_id": "achievement_003",
+    "_id": "3",
     "name": "学者",
     "icon": "📚",
     "description": "完成3门课程",
-    "condition": "completed_courses >= 3",
+    "condition": "完成3门法门课程学习",
     "type": "course",
-    "createdAt": 1736899200000,
-    "updatedAt": 1736899200000,
-    "owner": "user_001",
-    "createBy": "user_001",
-    "updateBy": "user_001"
+    "createdAt": 1737043200000,
+    "updatedAt": 1737043200000
   },
   {
-    "_id": "achievement_004",
+    "_id": "4",
     "name": "经师",
     "icon": "📖",
     "description": "诵读10部经典",
-    "condition": "completed_scriptures >= 10",
+    "condition": "完成10部佛经诵读",
     "type": "scripture",
-    "createdAt": 1736899200000,
-    "updatedAt": 1736899200000,
-    "owner": "user_001",
-    "createBy": "user_001",
-    "updateBy": "user_001"
+    "createdAt": 1737043200000,
+    "updatedAt": 1737043200000
+  },
+  {
+    "_id": "5",
+    "name": "百日禅修",
+    "icon": "🧘",
+    "description": "累计冥想100天",
+    "condition": "累计完成100天冥想练习",
+    "type": "meditation",
+    "createdAt": 1737043200000,
+    "updatedAt": 1737043200000
+  },
+  {
+    "_id": "6",
+    "name": "智慧之光",
+    "icon": "✨",
+    "description": "累计冥想1000分钟",
+    "condition": "累计冥想时长达到1000分钟",
+    "type": "meditation",
+    "createdAt": 1737043200000,
+    "updatedAt": 1737043200000
   }
 ]
