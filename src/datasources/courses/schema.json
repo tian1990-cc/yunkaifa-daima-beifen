@@ -14,7 +14,7 @@
     },
     {
       "name": "duration",
-      "title": "课程时长(天)",
+      "title": "课时数",
       "type": "Number"
     },
     {

@@ -18,6 +18,11 @@
       "type": "String"
     },
     {
+      "name": "type",
+      "title": "成就类型",
+      "type": "String"
+    },
+    {
       "name": "condition",
       "title": "达成条件",
       "type": "String"

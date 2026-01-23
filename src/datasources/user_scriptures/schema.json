@@ -18,15 +18,19 @@
       "type": "Number"
     },
     {
-      "name": "lastRead",
-      "title": "最后阅读时间",
-      "type": "Date",
-      "format": "date"
+      "name": "progress",
+      "title": "阅读进度",
+      "type": "Number"
     },
     {
-      "name": "status",
-      "title": "阅读状态",
+      "name": "lastRead",
+      "title": "最后阅读时间",
       "type": "String"
+    },
+    {
+      "name": "isCompleted",
+      "title": "是否完成",
+      "type": "Boolean"
     }
   ]
 }

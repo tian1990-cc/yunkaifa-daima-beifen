@@ -5,7 +5,7 @@
     {
       "name": "text",
       "title": "法语内容",
-      "type": "MultiLineString"
+      "type": "String"
     },
     {
       "name": "meaning",
@@ -20,8 +20,7 @@
     {
       "name": "date",
       "title": "日期",
-      "type": "Date",
-      "format": "date"
+      "type": "String"
     }
   ]
 }

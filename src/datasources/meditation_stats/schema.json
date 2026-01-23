@@ -8,25 +8,34 @@
       "type": "String"
     },
     {
-      "name": "duration",
-      "title": "冥想时长(分钟)",
-      "type": "Number"
-    },
-    {
       "name": "date",
       "title": "冥想日期",
-      "type": "Date",
-      "format": "date"
-    },
-    {
-      "name": "soundType",
-      "title": "背景音类型",
       "type": "String"
     },
     {
-      "name": "completed",
-      "title": "是否完成",
-      "type": "Boolean"
+      "name": "duration",
+      "title": "冥想时长",
+      "type": "Number"
+    },
+    {
+      "name": "backgroundSound",
+      "title": "背景音",
+      "type": "String"
+    },
+    {
+      "name": "streakDays",
+      "title": "连续天数",
+      "type": "Number"
+    },
+    {
+      "name": "totalMinutes",
+      "title": "总分钟数",
+      "type": "Number"
+    },
+    {
+      "name": "sessionsCount",
+      "title": "完成次数",
+      "type": "Number"
     }
   ]
 }
